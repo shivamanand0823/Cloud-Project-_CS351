@@ -1,0 +1,2 @@
+# Cloud-Project-_CS351
+Cloud service level agreement (SLA) based resource monitoring: Simulate transactions in a given set of machines on the cloud. Monitor the resources (CPU, memory usage, hard disks, network usage etc.) and report. In case the resource utilization goes beyond a certain threshold (e.g. 98%), then mark it as SLA failure, and allocate fresh resources in a fresh machine. Trigger process failover (a simple print statement saying “triggered” is sufficient).
