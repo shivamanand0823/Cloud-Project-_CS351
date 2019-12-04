@@ -49,7 +49,6 @@ while(connector):
 file.close()
 f = open('Data.txt', 'r+')
 print(f)
-print('chute')
 l = f.read(1024)
 print(l)
 while (l):
