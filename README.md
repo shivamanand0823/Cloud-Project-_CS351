@@ -6,7 +6,7 @@ Server.py:It acts like a mediator between client and Virtual machine .It connect
 
 
 
-Client.py:It acts helper for authentication and authorization It is the user end where user authenticate itself by server .Client uses virtual machines to gets it's computation done and print the statement "Trigger process failover triggered" if SLA failover takes place and it switches itself from one Virtual machine to another.
+Client.py:It acts helper for authentication and authorization It is the user end where user authenticate itself by server .Client uses virtual machines to gets it's computation done and print the statement "Trigger process failover triggered" if SLA failover takes place and it switches itself from one Virtual machine to another.Username=Shivam/Varun/Rushikesh,Password=Cloud
 
 
 
@@ -25,7 +25,7 @@ Step3:execute python Virtual_machine_2.py
 
 Step4:execute Server.py
 
-Step5:execute Client.py
+Step5:execute Client.py   Username=Shivam/Varun/Rushikesh,Password=Cloud
 
 Working:While user input their data in Client.py it stores the data in Virtual_machine_1.py through server.py if Virtual_machine_1.py overloads the server transfers the whole data of Virtal_machine_1.py to Virtal_machine_2.py.
 
