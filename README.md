@@ -17,17 +17,17 @@ its data to another Virtual machines.
 
 **Steps to be followed while simulating the project** :
 
-**Step1**:*Open the command prompt .
+**Step1**:*Open the command prompt* .
 
-**Step2**:*execute python Virtual_machine_1.py on command prompt.
+**Step2**:*execute python Virtual_machine_1.py on command prompt*.
 
-**Step3**:*execute python Virtual_machine_2.py
+**Step3**:*execute python Virtual_machine_2.py*
 
-**Step4**:*execute Server.py
+**Step4**:*execute Server.py*
 
 **Step5**:*execute Client.py*   **Username=Shivam/Varun/Rushikesh,Password=Cloud**
 
 **Working**:While user input their data in Client.py it stores the data in Virtual_machine_1.py through server.py if Virtual_machine_1.py overloads the server transfers the whole data of Virtal_machine_1.py to Virtal_machine_2.py.
 
-**Conclusion**:Simulate transactions in a given set of machines on the cloud. Monitor the resources (CPU, memory usage, hard disks,etc.) and report. In case the resource utilization goes beyond a certain threshold (e.g. 98%), then mark it as SLA failure, and allocate fresh resources in a fresh machine. Trigger process failover.During this whole process we are not losing any information even though the SLA failover takes place.
+**Conclusion**:*Simulate transactions in a given set of machines on the cloud. Monitor the resources (CPU, memory usage, hard disks,etc.) and report. In case the resource utilization goes beyond a certain threshold (e.g. 98%), then mark it as SLA failure, and allocate fresh resources in a fresh machine. Trigger process failover.During this whole process we are not losing any information even though the SLA failover takes place*.
 
